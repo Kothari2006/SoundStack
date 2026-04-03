@@ -1,8 +1,8 @@
 <!-- @format -->
 
-# 🎵 NayaSur Music Recommender
+# 🎵 SoundStack
 
-NayaSur Music Recommender is an AI-powered full-stack application that acts as your personal music assistant. Simply ask for a song recommendation (e.g., "Sad Punjabi songs", "Romantic Hindi music", or "Party English hits"), and the bot will provide tailored suggestions along with direct, clickable YouTube links.
+SoundStack is an AI-powered full-stack application that acts as your personal music assistant. Simply ask for a song recommendation (e.g., "Sad Punjabi songs", "Romantic Hindi music", or "Party English hits"), and the bot will provide tailored suggestions along with direct, clickable YouTube links.
 
 ## 🚀 Features
 

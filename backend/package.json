@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "soundstack-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "SoundStack Backend - AI-powered music recommendation engine",
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
