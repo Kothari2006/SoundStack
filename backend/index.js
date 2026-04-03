@@ -3,13 +3,20 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
+
+// to import environment variables from .env file
 require("dotenv").config();
 
+// this is help to connet frontend and backend which are running on different ports
 app.use(cors());
+
+// this is help to parse incoming JSON requests and make the data available in req.body
 app.use(express.json());
 
+// Set the port for the server to listen on, defaulting to 4000 if not specified in environment variables
 const port = process.env.PORT || 4000;
 
+// Import the Groq SDK to interact with the Groq API
 const Groq = require("groq-sdk");
 // Initialize Groq client
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
