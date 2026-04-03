@@ -18,6 +18,8 @@ const port = process.env.PORT || 4000;
 
 // Import the Groq SDK to interact with the Groq API
 const Groq = require("groq-sdk");
+
+
 // Initialize Groq client
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 

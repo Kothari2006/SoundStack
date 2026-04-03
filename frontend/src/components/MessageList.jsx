@@ -1,4 +1,5 @@
 import React from "react";
+// this is a simple component to display the list of messages in the chat, it also handles markdown rendering for assistant messages using react-markdown library
 import ReactMarkdown from "react-markdown";
 
 function MessageList({ messages, loading }) {

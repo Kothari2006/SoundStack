@@ -2,6 +2,7 @@ import { useState } from "react";
 import MessageList from "./MessageList";
 import MessageInput from "./MessageInput";
 
+// this is temporary URL for the backend API, you can change it to your actual backend URL
 const API_URL = "http://localhost:4000/api/chat";
 
 function Chatbot() {
@@ -19,7 +20,7 @@ function Chatbot() {
         setLoading(true);
 
         try {
-            // Using native fetch, no axios
+            // Using native fetch, no axios because we want to keep dependencies minimal
             const response = await fetch(API_URL, {
                 method: "POST",
                 headers: {
