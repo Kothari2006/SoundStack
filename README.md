@@ -77,7 +77,7 @@ SoundStack is an AI-powered full-stack application that acts as your personal mu
 ## 💡 Usage Example
 
 **You**: "Give me an energetic English party song"  
-**NayaSur**: "Here is a great party song for you:
+**SoundStack**: "Here is a great party song for you:
 
 - **Song**: Uptown Funk
 - **Artist**: Mark Ronson ft. Bruno Mars
